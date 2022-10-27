@@ -13,7 +13,7 @@ module.exports = {
       },
 
       fontFamily: {
-        frau: ['"Fraunces, serif;"', ...defaultTheme.fontFamily.serif]
+        frau: ['Fraunces, serif']
       }
     },
   },

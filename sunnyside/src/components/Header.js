@@ -6,7 +6,7 @@ import headerMobile from "../assets/mobile/image-header.jpg"
 function Header() {
   return (
     <div className='relative'>
-      <picture className='absolute -top-36 md:top-0 lg:-top-64'>
+      <picture>
         <source srcSet={headerDesktop} media="(min-width: 768px)" />
        <img src={headerMobile} alt="" />
       </picture>
