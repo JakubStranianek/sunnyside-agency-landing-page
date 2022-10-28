@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import Content from './components/Content';
+import Footer from './components/Footer';
 import Gallery from './components/Gallery';
 import Header from './components/Header';
 import Menu from './components/Menu';
@@ -16,6 +17,7 @@ function App() {
       <Content pWidth={width} sWidth={setWidth}/>  
       <Reviews/>
       <Gallery pWidth={width} sWidth={setWidth}/>
+      <Footer/>
     </div>
   );
 }

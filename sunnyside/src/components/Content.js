@@ -16,7 +16,10 @@ function Content(props) {
                     <p className='text-[#808397] text-base font-semibold text-center lg:text-left lg:font-black leading-8 pt-2'>We are a full-service creative agency specializing in 
                     helping brands grow fast. Engage your clients through
                     compelling visuals that do most of the marketing for you.</p>
-                    <a href='www.google.com' className='text-[#24303E] font-black text-[15px] pt-8'>LEARN MORE</a>
+                    <div className='pt-8 group'>
+                        <a href='www.google.com' className='text-[#24303E] font-black text-[15px]'>LEARN MORE</a>
+                        <div className='bg-[#FAD400] group-hover:bg-[#FE7766] rounded-3xl w-[120px] h-3 -mt-[10px] -ml-[6px]'></div>
+                    </div>
                 </div>
             </div>
 
@@ -38,7 +41,10 @@ function Content(props) {
 photographers, videographers, and copywriters, we’ll
 build and extend your brand in digital places.
                     </p>
-                    <a href='www.google.com' className='text-[#24303E] font-black text-[15px] pt-8'>LEARN MORE</a>
+                    <div className='pt-8 group'>
+                        <a href='www.google.com' className='text-[#24303E] font-black text-[15px]'>LEARN MORE</a>
+                        <div className='bg-[#FAD400] group-hover:bg-[#FE7766] rounded-3xl w-[120px] h-3 -mt-[10px] -ml-[6px]'></div>
+                    </div>
                 </div>
             </div>
         </div>

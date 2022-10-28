@@ -23,7 +23,7 @@ function Menu(props) {
               <li>About</li>
               <li>Services</li>
               <li>Projects</li>
-              <li className='text-black pt-4 pb-[15px] pl-8 pr-8 bg-white rounded-3xl uppercase font-bold'>Contact</li>            
+              <li className='text-black pt-4 pb-[15px] pl-8 pr-8 bg-white rounded-3xl uppercase font-bold hover:text-white hover:bg-white hover:bg-opacity-30'>Contact</li>            
             </ul>
             <div className={props.pWidth < 768 ? "block" : "hidden"}>
               <Hamburger color='white' toggled={isOpen} toggle={setOpen}/>           
