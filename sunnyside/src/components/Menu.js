@@ -15,8 +15,8 @@ function Menu(props) {
     window.addEventListener('resize', handleToggle)
 
   return (
-    <div className='w-full bg-blueOrangeMobile flex justify-center relative z-10'>
-        <nav className='w-11/12 flex justify-between items-center pt-8'>
+    <div className='w-full flex justify-center pt-8'>
+        <nav className='w-11/12 flex justify-between items-center'>
             <img src={Logo} alt="logo" className='w-[123px] h-[24px]'/>
             
             <ul className={props.pWidth > 768 ? 'flex w-[400px] justify-between items-center text-white text-base' : "hidden"}>

@@ -12,8 +12,10 @@ function App() {
 
   return (
     <div className="App font-frau">
-      <Menu pWidth={width} sWidth={setWidth}/> 
-      <Header/>   
+      <div className={width <= 768 ? 'w-full h-screen bg-blueOrangeMobile bg-cover bg-no-repeat bg-top' : 'w-full h-screen bg-blueOrangeDesktop bg-cover bg-center bg-no-repeat'}>
+        <Menu pWidth={width} sWidth={setWidth}/> 
+        <Header/>   
+      </div>
       <Content pWidth={width} sWidth={setWidth}/>  
       <Reviews/>
       <Gallery pWidth={width} sWidth={setWidth}/>
