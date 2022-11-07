@@ -1,5 +1,5 @@
 import React, { useState} from 'react'
-import Logo from "../assets/logo.svg"
+import Logo from "../Assets/logo.svg"
 import Hamburger from 'hamburger-react'
 
 function Menu(props) {

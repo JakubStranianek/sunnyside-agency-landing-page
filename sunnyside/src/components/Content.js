@@ -1,10 +1,10 @@
 import React from 'react'
-import egg from "../assets/desktop/image-transform.jpg"
-import glass from "../assets/desktop/image-stand-out.jpg"
-import cherry from "../assets/desktop/image-graphic-design.jpg"
-import mobileCherry from "../assets/mobile/image-graphic-design.jpg"
-import orange from "../assets/desktop/image-photography.jpg"
-import mobileOrange from "../assets/mobile/image-photography.jpg"
+import egg from "../Assets/desktop/image-transform.jpg"
+import glass from "../Assets/desktop/image-stand-out.jpg"
+import cherry from "../Assets/desktop/image-graphic-design.jpg"
+import mobileCherry from "../Assets/mobile/image-graphic-design.jpg"
+import orange from "../Assets/desktop/image-photography.jpg"
+import mobileOrange from "../Assets/mobile/image-photography.jpg"
 
 function Content(props) {
   return (

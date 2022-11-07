@@ -1,7 +1,7 @@
 import React from 'react'
-import arrow from "../assets/icon-arrow-down.svg"
-import headerDesktop from "../assets/desktop/image-header.jpg"
-import headerMobile from "../assets/mobile/image-header.jpg"
+import arrow from "../Assets/icon-arrow-down.svg"
+import headerDesktop from "../Assets/desktop/image-header.jpg"
+import headerMobile from "../Assets/mobile/image-header.jpg"
 
 function Header() {
   return (
