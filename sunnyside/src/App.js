@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import './App.css';
-import Content from './Components/Content';
-import Footer from './Components/Footer';
-import Gallery from './Components/Gallery';
-import Header from './Components/Header';
-import Menu from './Components/Menu';
-import Reviews from './Components/Reviews';
+import Content from './Components/Content.js';
+import Footer from './Components/Footer.js';
+import Gallery from './Components/Gallery.js';
+import Header from './Components/Header.js';
+import Menu from './Components/Menu.js';
+import Reviews from './Components/Reviews.js';
 
 function App() {
   const [width, setWidth] = useState(window.innerWidth);
